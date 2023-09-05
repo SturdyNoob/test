@@ -9,7 +9,7 @@ def add_two_numbers(x,y):
     z = int(x) + int(y)
     print(z)
 
-def multiply_three_numbers(x,y,z)
+def multiply_three_numbers(x,y,z):
     a = int(x) * int(y) * int(z)
     return(a)
     #Comment: It will also work if you use the command return(int(x) * int(y) * int(z))
