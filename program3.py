@@ -14,6 +14,9 @@ def multiply_three_numbers(x,y,z):
     return(a)
     #Comment: It will also work if you use the command return(int(x) * int(y) * int(z))
             
+def determine_largest(x,y):
+    return max(x,y)
+
 a = ask_for_input()
 
 echo_user_input(a)
@@ -22,3 +25,7 @@ a = ask_for_input()
 b = ask_for_input()
 add_two_numbers(a,b)
 #Comment: Can also be done like this: add_two_numbers(ask_for_input(),ask_for_input())
+product = multiply_three_numbers(ask_for_input(),ask_for_input(),ask_for_input())
+echo_user_input(product)
+sum = determine_largest(ask_for_input(),ask_for_input())
+echo_user_input(sum)
